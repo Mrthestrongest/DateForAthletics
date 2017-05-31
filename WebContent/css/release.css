@@ -1,0 +1,53 @@
+.release{
+	position: fixed;
+	left: 170px;
+	top: 40px;
+	width: 1000px;
+	height:600px;
+	padding-top: 20px;
+	background-color:rgba(245,240,240,0.8);
+	display: none;
+
+}
+.release h2{
+	color:rgb(101,40,64);
+	text-align: center;
+	font-weight: bold;
+	margin: 8px 0;
+}
+.release input{
+	display: block;
+	margin-left: 200px;
+	width: 600px;
+}
+.release textarea{
+	display: block;
+	width: 600px;
+	height: 150px;
+	resize:none;
+	margin-left: 200px;
+}
+.release .closer{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	display: block;
+	color: rgb(101,40,64);
+	font-size: 20px;
+	font-weight: bold;
+}
+.release button{
+	background-color: rgb(196,165,165);
+	display: block;
+	margin-left: 455px;
+	height: 40px;
+	color: #fff;
+	margin-top: 10px;
+}
+.entry-content p{
+	text-indent: 2em;
+	color: #bbb;
+}
+.entry-utility{
+	margin-top: 10px;
+}

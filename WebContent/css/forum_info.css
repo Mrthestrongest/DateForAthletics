@@ -1,0 +1,150 @@
+.main{
+	height: 1400px;
+	background-color: rgb(240,230,230);
+
+}
+.main .main_in{
+	width: 960px;
+	height: 1200px;
+	background-color: rgb(251,251,251);
+	margin: 0 auto;
+}
+.page{
+	height: 75px;
+	overflow: hidden;
+	line-height: 75px;
+	margin-top: 40px;
+	padding-left: 330px;
+}
+.page .page_contain{
+	margin-top: 40px;
+	padding-left: 0px;
+	margin: 0 auto;
+}
+.page ul li{
+	line-height: 20px;
+	float: left;
+	list-style: none;
+	border:1px solid rgb(228,230,235);
+	padding: 5px;
+	margin: 0 5px;
+	color: rgb(102,102,102);
+}
+.public_topic{
+	height: 400px;
+	background-color: rgb(249,249,249);
+	border-top: 1px solid #eee;
+}
+.public_topic p{
+	margin-top: 10px;
+	font-size: 20px;
+	margin-left: 120px;
+	color: rgb(101,40,63);
+}
+.public_topic span{
+	display: block;margin-left: 120px;
+	color: rgb(101,40,63);
+	margin-top: 10px;
+	font-weight: bold;
+}
+.public_topic input{
+	display: block;
+	margin-left: 120px;
+	width: 700px;
+}
+.public_topic textarea{
+	display: block;
+	width: 700px;
+	height: 200px;
+	margin-left: 120px;
+	margin-top: 30px
+}
+.public_topic button{
+	display: block;
+	margin-left: 120px;
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+	
+	color: rgb(101,40,64);
+}
+.demo1{
+	position: relative;
+	height: 100px;
+	background-color: #eee;
+	padding: 20px 70px;
+	font-size: 28px;
+	font-weight: bold;
+	color: rgb(101,40,64);
+	overflow: hidden;
+
+}
+.demo1 button{
+	display: block;
+	width: 55px;
+	height: 25px;
+	font-size: 12px;
+	color: black;
+	position: relative;
+	top: -33px;
+	left: 150px;
+}
+.demo2{
+	position: relative;
+	height: 60px;
+	padding-left: 40px;
+	background-color: rgb(101,40,64);
+}
+.demo2 li{
+	list-style: none;
+	display: block;
+	float: left;
+	line-height: 60px;
+	margin-right: 20px;
+	color: #fff;
+}
+.demo2 li a{
+	color: #fff;
+	text-decoration: none;
+}
+.demo3{
+	position: relative;
+	height: 150px;
+	background-color: #eee;
+	color: rgb(102,102,102);
+	padding: 20px;
+	text-indent: 2em;
+	line-height: 2em;
+}
+.demo3 span{
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	color: red;
+}
+.demo4{
+	position: relative;
+	overflow: hidden;
+	height: 200px;
+	border: 1px solid black;
+}
+.demo4 .left{
+	width: 120px;
+	height: 198px;
+	background-color: #eee;
+	float: left;
+}
+.demo4 .right{
+	text-indent: 2em;
+	line-height: 2em;
+	padding: 20px;
+	float: left;
+	background-color: #pink;
+	width: 800px;
+}
+.demo4 .right  span{
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	color: red;
+}

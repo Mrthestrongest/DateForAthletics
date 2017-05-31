@@ -1,0 +1,132 @@
+.main{
+	height: 1550px;
+	background-color: rgb(240,230,230);
+
+}
+.main .main_in{
+	width: 960px;
+	height: 1200px;
+	background-color: rgb(251,251,251);
+	margin: 0 auto;
+	
+}
+.main .main_in .top{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	background-color:rgb(251,251,251);
+	margin-left: 0px;
+	padding-top: 40px;
+	overflow: hidden;
+}
+.main_nav{
+	height: 230px;
+	background-color: rgb(101,40,64);
+	padding-top: 150px;
+	padding-left: 270px;
+}
+.main .main_in .main_nav li{
+	list-style: none;
+	float: left;
+	display: block;
+	margin-right: 100px;
+	line-height: 80px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.main .main_in .main_nav li a{
+	text-decoration: none;
+	color: #fff;
+}
+.main_text{
+	
+	height: 200px;
+	border:1px solid #eee;
+}
+.main_text .left{
+	margin-left: 50px;
+	margin-top: 80px;
+	font-size: 20px;
+	padding-left: 17px;
+	font-weight: bold;
+	height: 35px;
+	width: 50px;
+	border: 1px solid rgb(232,82,68);
+	border-radius: 5px;
+	float: left;
+	color: rgb(232,82,68);
+	line-height: 35px;
+} 
+.main_text .msg{
+	color: rgb(102,102,102);
+	line-height: 200px;
+	float: left;
+	margin-left: 80px;
+}
+.main_text .right{
+	float: right;
+	line-height: 200px;
+	margin-right: 80px;
+	margin-top: -40px;
+	color: rgb(232,82,68);
+}
+.page{
+	height: 75px;
+	overflow: hidden;
+	line-height: 75px;
+	margin-top: 40px;
+	padding-left: 330px;
+}
+.page .page_contain{
+	margin-top: 40px;
+	padding-left: 80px;
+	margin: 0 auto;
+}
+.page ul li{
+	line-height: 20px;
+	float: left;
+	list-style: none;
+	border:1px solid rgb(228,230,235);
+	padding: 5px;
+	margin: 0 5px;
+	color: rgb(102,102,102);
+}
+.public_topic{
+	height: 400px;
+	background-color: rgb(249,249,249);
+	border-top: 1px solid #eee;
+}
+.public_topic p{
+	margin-top: 10px;
+	font-size: 20px;
+	margin-left: 120px;
+	color: rgb(101,40,63);
+}
+.public_topic span{
+	display: block;margin-left: 120px;
+	color: rgb(101,40,63);
+	margin-top: 10px;
+	font-weight: bold;
+}
+.public_topic input{
+	display: block;
+	margin-left: 120px;
+	width: 700px;
+}
+.public_topic textarea{
+	display: block;
+	width: 700px;
+	height: 200px;
+	margin-left: 120px;
+	margin-top: 30px
+}
+.public_topic button{
+	display: block;
+	margin-left: 120px;
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+	
+	color: rgb(101,40,64);
+}
